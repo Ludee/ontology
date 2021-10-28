@@ -1,0 +1,225 @@
+<http://openenergy-platform.org/ontology/oeo/imports/iao-module.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://openenergy-platform.org/ontology/oeo/imports/iao-module.owl> <http://www.w3.org/2002/07/owl#versionIRI> <http://openenergy-platform.org/ontology/oeo/dev/imports/iao-module.owl> .
+<http://openenergy-platform.org/ontology/oeo/imports/iao-module.owl> <http://www.w3.org/2000/01/rdf-schema#comment> "This file contains externally imported content from the Information Artifact Ontology (IAO) for import into the Open Energy Ontology (OEO). It is automatically extracted using ROBOT." .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/IAO_0000111
+<http://purl.obolibrary.org/obo/IAO_0000111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000112
+<http://purl.obolibrary.org/obo/IAO_0000112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000114
+<http://purl.obolibrary.org/obo/IAO_0000114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000115
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000116
+<http://purl.obolibrary.org/obo/IAO_0000116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000117
+<http://purl.obolibrary.org/obo/IAO_0000117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000118
+<http://purl.obolibrary.org/obo/IAO_0000118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000119
+<http://purl.obolibrary.org/obo/IAO_0000119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000232
+<http://purl.obolibrary.org/obo/IAO_0000232> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/IAO_0000136
+<http://purl.obolibrary.org/obo/IAO_0000136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000136> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/IAO_0000030> .
+<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000112> "This document is about information artifacts and their representations"@en .
+<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
+<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000115> "A (currently) primitive relation that relates an information artifact to an entity."@en .
+<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000116> "7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of \"mentions\" relation. Weaken the is_about relationship to be primitive. \n\nWe will try to build it back up by elaborating the various subproperties that are more precisely defined.\n\nSome currently missing phenomena that should be considered \"about\" are predications - \"The only person who knows the answer is sitting beside me\" , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic."@en .
+<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000117> "person:Alan Ruttenberg"@en .
+<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/IAO_0000119> "Smith, Ceusters, Ruttenberg, 2000 years of philosophy"@en .
+<http://purl.obolibrary.org/obo/IAO_0000136> <http://www.w3.org/2000/01/rdf-schema#label> "is about"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/IAO_0000010
+<http://purl.obolibrary.org/obo/IAO_0000010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000010> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000104> .
+<http://purl.obolibrary.org/obo/IAO_0000010> <http://purl.obolibrary.org/obo/IAO_0000111> "software"@en .
+<http://purl.obolibrary.org/obo/IAO_0000010> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000120> .
+<http://purl.obolibrary.org/obo/IAO_0000010> <http://purl.obolibrary.org/obo/IAO_0000115> "Software is a plan specification composed of a series of instructions that can be \ninterpreted by or directly executed by a processing unit."@en .
+<http://purl.obolibrary.org/obo/IAO_0000010> <http://purl.obolibrary.org/obo/IAO_0000116> "see sourceforge tracker discussion at http://sourceforge.net/tracker/index.php?func=detail&aid=1958818&group_id=177891&atid=886178"@en .
+<http://purl.obolibrary.org/obo/IAO_0000010> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Alan Ruttenberg"@en .
+<http://purl.obolibrary.org/obo/IAO_0000010> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Bjoern Peters"@en .
+<http://purl.obolibrary.org/obo/IAO_0000010> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Chris Stoeckert"@en .
+<http://purl.obolibrary.org/obo/IAO_0000010> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Melanie Courtot"@en .
+<http://purl.obolibrary.org/obo/IAO_0000010> <http://purl.obolibrary.org/obo/IAO_0000119> "GROUP: OBI"@en .
+<http://purl.obolibrary.org/obo/IAO_0000010> <http://www.w3.org/2000/01/rdf-schema#label> "software"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000027
+<http://purl.obolibrary.org/obo/IAO_0000027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000028
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000030> .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://purl.obolibrary.org/obo/IAO_0000111> "symbol"@en .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://purl.obolibrary.org/obo/IAO_0000112> "a serial number such as \"12324X\""@en .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://purl.obolibrary.org/obo/IAO_0000112> "a stop sign"@en .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://purl.obolibrary.org/obo/IAO_0000112> "a written proper name such as \"OBI\""@en .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://purl.obolibrary.org/obo/IAO_0000115> "An information content entity that is a mark(s) or character(s) used as a conventional representation of another entity."@en .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://purl.obolibrary.org/obo/IAO_0000116> "20091104, MC: this needs work and will most probably change"@en .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://purl.obolibrary.org/obo/IAO_0000116> "2014-03-31: We would like to have a deeper analysis of 'mark' and 'sign' in the future (see https://github.com/information-artifact-ontology/IAO/issues/154)."@en .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: James A. Overton"@en .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Jonathan Rees"@en .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://purl.obolibrary.org/obo/IAO_0000119> "based on Oxford English Dictionary"@en .
+<http://purl.obolibrary.org/obo/IAO_0000028> <http://www.w3.org/2000/01/rdf-schema#label> "symbol"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000030
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/IAO_0000112> "Examples of information content entites include journal articles, data, graphical layouts, and graphs."@en .
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/IAO_0000115> "A generically dependent continuant that is about some thing."@en .
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/IAO_0000116> "2014-03-10: The use of \"thing\" is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ)."@en .
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/IAO_0000116> "information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907).\n\nPrevious. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity."@en .
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Chris Stoeckert"@en .
+<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/IAO_0000119> "OBI_0000142"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000033
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000030> .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000115> "An information content entity whose concretizations indicate to their bearer how to realize them in a process."@en .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000116> "2009-03-16: provenance: a term realizable information entity was proposed for OBI (OBI_0000337) , edited by the PlanAndPlannedProcess branch. Original definition was  \"is the specification of a process that can be concretized and realized by an actor\" with alternative term  \"instruction\".It has been subsequently moved to IAO where the objective for which the original term was defined was satisfied with the definitionof this, different, term."@en .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000116> "2013-05-30 Alan Ruttenberg: What differentiates a directive information entity from an information concretization is that it can have concretizations that are either qualities or realizable entities. The concretizations that are realizable entities are created when an individual chooses to take up the direction, i.e. has the intention to (try to) realize it."@en .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000116> "8/6/2009 Alan Ruttenberg: Changed label from \"information entity about a realizable\" after discussions at ICBO"@en .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000116> "Werner pushed back on calling it realizable information entity as it isn't realizable. However this name isn't right either. An example would be a recipe. The realizable entity would be a plan, but the information entity isn't about the plan, it, once concretized, *is* the plan. -Alan"@en .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Alan Ruttenberg"@en .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Bjoern Peters"@en .
+<http://purl.obolibrary.org/obo/IAO_0000033> <http://www.w3.org/2000/01/rdf-schema#label> "directive information entity"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000064
+<http://purl.obolibrary.org/obo/IAO_0000064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000064> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000104> .
+<http://purl.obolibrary.org/obo/IAO_0000064> <http://purl.obolibrary.org/obo/IAO_0000111> "algorithm"@en .
+<http://purl.obolibrary.org/obo/IAO_0000064> <http://purl.obolibrary.org/obo/IAO_0000112> "PMID: 18378114.Genomics. 2008 Mar 28. LINKGEN: A new algorithm to process data in genetic linkage studies."@en .
+<http://purl.obolibrary.org/obo/IAO_0000064> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000120> .
+<http://purl.obolibrary.org/obo/IAO_0000064> <http://purl.obolibrary.org/obo/IAO_0000115> "A plan specification which describes the inputs and output of mathematical functions as well as workflow of execution for achieving an predefined objective. Algorithms are realized usually by means of implementation as computer programs for execution by automata."@en .
+<http://purl.obolibrary.org/obo/IAO_0000064> <http://purl.obolibrary.org/obo/IAO_0000117> "Philippe Rocca-Serra"@en .
+<http://purl.obolibrary.org/obo/IAO_0000064> <http://purl.obolibrary.org/obo/IAO_0000117> "PlanAndPlannedProcess Branch"@en .
+<http://purl.obolibrary.org/obo/IAO_0000064> <http://purl.obolibrary.org/obo/IAO_0000119> "OBI_0000270"@en .
+<http://purl.obolibrary.org/obo/IAO_0000064> <http://purl.obolibrary.org/obo/IAO_0000119> "adapted from discussion on OBI list (Matthew Pocock, Christian Cocos, Alan Ruttenberg)"@en .
+<http://purl.obolibrary.org/obo/IAO_0000064> <http://www.w3.org/2000/01/rdf-schema#label> "algorithm"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000088
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000310> .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://purl.obolibrary.org/obo/IAO_0000111> "report"@en .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://purl.obolibrary.org/obo/IAO_0000112> "Examples of reports are gene lists and investigation reports. These are not published (journal) articles but may be included in a journal article."@en .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://purl.obolibrary.org/obo/IAO_0000115> "a document assembled by an author for the purpose of providing information for the audience. A report is the output of a documenting process and has the objective to be consumed by a specific audience. Topic of the report is on something that has completed. A report is not a single figure. Examples of reports are journal article, patent application, grant progress report, case report (not patient record)"@en .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://purl.obolibrary.org/obo/IAO_0000116> "2009-03-16: comment from Darren Natale: I am slightly uneasy with the sentence \"Topic of the report is on \nsomething that has completed.\"  Should it be restricted to those things \nthat are completed?  For example, a progress report is (usually) about \nsomething that definitely has *not* been completed, or may include \n(only) projections.  I think the definition would not suffer if the \nwhole sentence is deleted."@en .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://purl.obolibrary.org/obo/IAO_0000116> "2009-03-16: this was report of results with definition: A report is a narrative object that is a formal statement of the results of an investigation, or of any matter on which definite information is required, made by some person or body instructed or required to do so."@en .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://purl.obolibrary.org/obo/IAO_0000116> "2009-03-16: work has been done on this term during during the OBI workshop winter 2009 and the current definition was considered acceptable for use in OBI. If there is a need to modify this definition please notify OBI."@en .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://purl.obolibrary.org/obo/IAO_0000116> "2009-08-10 Alan Ruttenberg: Larry Hunter suggests that this be obsoleted and replaced by 'document'. Alan restored as there are OBI dependencies and this merits further discussion"@en .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://purl.obolibrary.org/obo/IAO_0000116> "disagreement about where reports go. alan: only some gene lists are reports. Is a report all the content of some document? The example of usage suggests that a report may be part of  some article. Term needs clarification"@en .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Alan Ruttenberg"@en .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Melanie Courtot"@en .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON:Chris Stoeckert"@en .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://purl.obolibrary.org/obo/IAO_0000119> "GROUP: OBI"@en .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://purl.obolibrary.org/obo/IAO_0000119> "OBI_0000099"@en .
+<http://purl.obolibrary.org/obo/IAO_0000088> <http://www.w3.org/2000/01/rdf-schema#label> "report"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000100
+<http://purl.obolibrary.org/obo/IAO_0000100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000027> .
+<http://purl.obolibrary.org/obo/IAO_0000100> <http://purl.obolibrary.org/obo/IAO_0000111> "data set"@en .
+<http://purl.obolibrary.org/obo/IAO_0000100> <http://purl.obolibrary.org/obo/IAO_0000112> "Intensity values in a CEL file or from multiple CEL files comprise a data set (as opposed to the CEL files themselves)."@en .
+<http://purl.obolibrary.org/obo/IAO_0000100> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
+<http://purl.obolibrary.org/obo/IAO_0000100> <http://purl.obolibrary.org/obo/IAO_0000115> "A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets."@en .
+<http://purl.obolibrary.org/obo/IAO_0000100> <http://purl.obolibrary.org/obo/IAO_0000116> "2009/10/23 Alan Ruttenberg. The intention is that this term represent collections of like data. So this isn't for, e.g. the whole contents of a cel file, which includes parameters, metadata etc. This is more like java arrays of a certain rather specific type"@en .
+<http://purl.obolibrary.org/obo/IAO_0000100> <http://purl.obolibrary.org/obo/IAO_0000116> "2014-05-05: Data sets are aggregates and thus must include two or more data items. We have chosen not to add logical axioms to make this restriction." .
+<http://purl.obolibrary.org/obo/IAO_0000100> <http://purl.obolibrary.org/obo/IAO_0000117> "person:Allyson Lister"@en .
+<http://purl.obolibrary.org/obo/IAO_0000100> <http://purl.obolibrary.org/obo/IAO_0000117> "person:Chris Stoeckert"@en .
+<http://purl.obolibrary.org/obo/IAO_0000100> <http://purl.obolibrary.org/obo/IAO_0000119> "OBI_0000042"@en .
+<http://purl.obolibrary.org/obo/IAO_0000100> <http://purl.obolibrary.org/obo/IAO_0000119> "group:OBI"@en .
+<http://purl.obolibrary.org/obo/IAO_0000100> <http://www.w3.org/2000/01/rdf-schema#label> "data set"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000104
+<http://purl.obolibrary.org/obo/IAO_0000104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000104> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000033> .
+<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000111> "plan specification"@en .
+<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000112> "PMID: 18323827.Nat Med. 2008 Mar;14(3):226.New plan proposed to help resolve conflicting medical advice."@en .
+<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000122> .
+<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000115> "A directive information entity with action specifications and objective specifications as parts that, when concretized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified."@en .
+<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000116> "2009-03-16: provenance: a term a plan was proposed for OBI (OBI_0000344) , edited by the PlanAndPlannedProcess branch. Original definition was \" a plan is a specification of a process that is realized by an actor to achieve the objective specified as part of the plan\". It has been subsequently moved to IAO where the objective for which the original term was defined was satisfied with the definitionof this, different, term."@en .
+<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000116> "2014-03-31: A plan specification can have other parts, such as conditional specifications."@en .
+<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000116> "Alternative previous definition: a plan is a set of instructions that specify how an objective should be achieved"@en .
+<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000117> "Alan Ruttenberg"@en .
+<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000119> "OBI Plan and Planned Process branch"@en .
+<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000119> "OBI_0000344"@en .
+<http://purl.obolibrary.org/obo/IAO_0000104> <http://www.w3.org/2000/01/rdf-schema#comment> "2/3/2009 Comment from OBI review.\n\nAction specification not well enough specified.\nConditional specification not well enough specified.\nQuestion whether all plan specifications have objective specifications.\n\nRequest that IAO either clarify these or change definitions not to use them"@en .
+<http://purl.obolibrary.org/obo/IAO_0000104> <http://www.w3.org/2000/01/rdf-schema#label> "plan specification"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000300
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000030> .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://purl.obolibrary.org/obo/IAO_0000111> "textual entity"@en .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://purl.obolibrary.org/obo/IAO_0000112> "Words, sentences, paragraphs, and the written (non-figure) parts of publications are all textual entities"@en .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000123> .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://purl.obolibrary.org/obo/IAO_0000115> "A textual entity is a part of a manifestation (FRBR sense), a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc."@en .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://purl.obolibrary.org/obo/IAO_0000116> "AR, (IAO call 2009-09-01): a document as a whole is not typically a textual entity, because it has pictures in it - rather there are parts of it that are textual entities. Examples: The title, paragraph 2 sentence 7, etc."@en .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://purl.obolibrary.org/obo/IAO_0000116> "MC, 2009-09-14 (following IAO call 2009-09-01): textual entities live at the FRBR (http://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records) manifestation level. Everything is significant: line break, pdf and html versions of same document are different textual entities."@en .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Lawrence Hunter"@en .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://purl.obolibrary.org/obo/IAO_0000118> "text"@en .
+<http://purl.obolibrary.org/obo/IAO_0000300> <http://www.w3.org/2000/01/rdf-schema#label> "textual entity"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000310
+<http://purl.obolibrary.org/obo/IAO_0000310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000310> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000030> .
+<http://purl.obolibrary.org/obo/IAO_0000310> <http://purl.obolibrary.org/obo/IAO_0000111> "document"@en .
+<http://purl.obolibrary.org/obo/IAO_0000310> <http://purl.obolibrary.org/obo/IAO_0000112> "A journal article, patent application, laboratory notebook, or a book"@en .
+<http://purl.obolibrary.org/obo/IAO_0000310> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000120> .
+<http://purl.obolibrary.org/obo/IAO_0000310> <http://purl.obolibrary.org/obo/IAO_0000115> "A collection of information content entities intended to be understood together as a whole"@en .
+<http://purl.obolibrary.org/obo/IAO_0000310> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Lawrence Hunter"@en .
+<http://purl.obolibrary.org/obo/IAO_0000310> <http://www.w3.org/2000/01/rdf-schema#label> "document"@en .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000590
+<http://purl.obolibrary.org/obo/IAO_0000590> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IAO_0000590> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/IAO_0000300> .
+<http://purl.obolibrary.org/obo/IAO_0000590> <http://purl.obolibrary.org/obo/IAO_0000111> "written name"@en .
+<http://purl.obolibrary.org/obo/IAO_0000590> <http://purl.obolibrary.org/obo/IAO_0000112> "\"Bill Clinton\""@en .
+<http://purl.obolibrary.org/obo/IAO_0000590> <http://purl.obolibrary.org/obo/IAO_0000112> "\"The Eiffel Tower\""@en .
+<http://purl.obolibrary.org/obo/IAO_0000590> <http://purl.obolibrary.org/obo/IAO_0000112> "\"United States of America\""@en .
+<http://purl.obolibrary.org/obo/IAO_0000590> <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/IAO_0000125> .
+<http://purl.obolibrary.org/obo/IAO_0000590> <http://purl.obolibrary.org/obo/IAO_0000115> "A textual entity that denotes a particular in reality."@en .
+<http://purl.obolibrary.org/obo/IAO_0000590> <http://purl.obolibrary.org/obo/IAO_0000117> "PERSON: Bill Hogan"@en .
+<http://purl.obolibrary.org/obo/IAO_0000590> <http://purl.obolibrary.org/obo/IAO_0000119> "https://github.com/information-artifact-ontology/IAO/issues/114"@en .
+<http://purl.obolibrary.org/obo/IAO_0000590> <http://purl.obolibrary.org/obo/IAO_0000232> "The qualifier \"written\" is to set it apart from spoken names.  Also, note the restrictions to particulars.  We are not naming universals.   We could however, be naming, attributive collections which are particulars, so \"All people located in the boundaries of the city of Little Rock, AR on June 18, 2011 at 9:50a CDT\" would be a name."@en .
+<http://purl.obolibrary.org/obo/IAO_0000590> <http://www.w3.org/2000/01/rdf-schema#label> "written name"@en .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
