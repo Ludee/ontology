@@ -1,0 +1,235 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://refenrencedate
+<http://refenrencedate> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/language
+<http://purl.org/dc/terms/language> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/spatial
+<http://purl.org/dc/terms/spatial> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#Dataset
+<http://www.w3.org/ns/dcat#Dataset> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#accessURL
+<http://www.w3.org/ns/dcat#accessURL> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#distribution
+<http://www.w3.org/ns/dcat#distribution> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#downloadURL
+<http://www.w3.org/ns/dcat#downloadURL> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#format
+<http://www.w3.org/ns/dcat#format> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#landingPage
+<http://www.w3.org/ns/dcat#landingPage> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#mediaType
+<http://www.w3.org/ns/dcat#mediaType> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/mbox
+<http://xmlns.com/foaf/0.1/mbox> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/page
+<http://xmlns.com/foaf/0.1/page> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#String
+xsd:String rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/dc/terms/LicenseDocument
+<http://purl.org/dc/terms/LicenseDocument> rdf:type owl:Class .
+
+
+###  http://purl.org/dc/terms/MediaTypeOrExtent
+<http://purl.org/dc/terms/MediaTypeOrExtent> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Catalog
+<http://www.w3.org/ns/dcat#Catalog> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Dataset
+<http://www.w3.org/ns/dcat#Dataset> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Distribution
+<http://www.w3.org/ns/dcat#Distribution> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Agent
+<http://xmlns.com/foaf/0.1/Agent> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Document
+<http://xmlns.com/foaf/0.1/Document> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://catalog
+<http://catalog> rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/ns/dcat#Catalog> ;
+                 <http://purl.org/dc/terms/description> "" ;
+                 <http://purl.org/dc/terms/title> "" ;
+                 <http://www.w3.org/ns/dcat#Dataset> <http://scenario.abbb_demand> .
+
+
+###  http://scenario.abbb_demand
+<http://scenario.abbb_demand> rdf:type owl:NamedIndividual ,
+                                       <http://www.w3.org/ns/dcat#Dataset> ;
+                              <http://refenrencedate> "2016-11-24"^^xsd:date ;
+                              <http://purl.org/dc/terms/contributor> _:genid2 ;
+                              <http://purl.org/dc/terms/created> "2016-11-24"^^xsd:date ;
+                              <http://purl.org/dc/terms/creator> _:genid3 ,
+                                                                 _:genid4 ;
+                              <http://purl.org/dc/terms/description> "aggregated and modified demand data (electricity and heat) for every technology, region and scenario" ;
+                              <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ENG> ,
+                                                                  <http://publications.europa.eu/resource/authority/language/GER> ;
+                              <http://purl.org/dc/terms/publisher> _:genid5 ;
+                              <http://purl.org/dc/terms/spatial> <http://publications.europa.eu/mdr/authority/place/DEU_BBG> ,
+                                                                 <http://publications.europa.eu/mdr/authority/place/DEU_BER> ;
+                              <http://purl.org/dc/terms/title> "oemof app brandenburg berlin - demand per sector" ;
+                              rdfs:comment "resolution: Regionale Planungsgemeinschaften und Berlin" ;
+                              <http://www.w3.org/ns/dcat#distribution> <http://scenario.abbb_demand-1> ,
+                                                                       <http://scenario.abbb_demand-csv> ;
+                              <http://www.w3.org/ns/dcat#landingPage> <http://openenergy-platform.org/dataedit/view/scenario/abbb_demand> ;
+                              <http://xmlns.com/foaf/0.1/page> <http://www.energie.brandenburg.de/media/bb1.a.2865.de/Energiestrategie_2030.pdf> ,
+                                                               <http://www.lak-energiebilanzen.de/seiten/download/Archiv%20Bilanzen/Brandenburg/2012/Energiebilanz%20Brandenburg%202012.pdf> ,
+                                                               <http://www.stadtentwicklung.berlin.de/umwelt/klima-schutz/bek_berlin/> ,
+                                                               <https://www.zab-energie.de/de/system/files/media-downloads/6._monitoringbericht_zur_energiestrategie_-_berichtsjahr_2014_1.pdf> ,
+                                                               _:genid6 .
+
+_:genid2 rdf:type <http://xmlns.com/foaf/0.1/Person> ;
+          <http://xmlns.com/foaf/0.1/mbox> <file:/home/ahmad/repos/ludwig.huelk@rl-institut.de/examples/elisa.gaudchau@rl-institut.de> ;
+          <http://xmlns.com/foaf/0.1/name> "Elisa Gaudchau" .
+
+_:genid3 rdf:type <http://xmlns.com/foaf/0.1/Person> ;
+          <http://xmlns.com/foaf/0.1/mbox> <file:/home/ahmad/repos/ludwig.huelk@rl-institut.de/examples/elisa.gaudchau@rl-institut.de> ;
+          <http://xmlns.com/foaf/0.1/name> "Elisa Gaudchau" .
+
+_:genid4 rdf:type <http://xmlns.com/foaf/0.1/Person> ;
+          <http://xmlns.com/foaf/0.1/name> "Kilian Zimmerer" .
+
+_:genid5 rdf:type <http://xmlns.com/foaf/0.1/Agent> .
+
+_:genid6 rdf:type <http://xmlns.com/foaf/0.1/Document> ;
+          rdfs:comment "nicht oeffentlich" ;
+          rdfs:label "ZAB ZukunftsAgentur Brandenburg GmbH" .
+
+
+###  http://scenario.abbb_demand-1
+<http://scenario.abbb_demand-1> rdf:type owl:NamedIndividual ,
+                                         <http://www.w3.org/ns/dcat#Distribution> ;
+                                <http://purl.org/dc/terms/license> <https://www.dcat-ap.de/def/licenses/odbl> ,
+                                                                   _:genid7 ;
+                                <http://purl.org/dc/terms/title> "distribution of scenario.abbb_demand" ;
+                                <http://www.w3.org/ns/dcat#accessURL> <http://openenergy-platform.org/dataedit/view/scenario/abbb_demand> ;
+                                <http://www.w3.org/ns/dcat#format> _:genid8 ;
+                                <http://www.w3.org/ns/dcat#mediaType> "table" .
+
+_:genid7 rdf:type <http://purl.org/dc/terms/LicenseDocument> ;
+          rdfs:comment "instruction: You are free to share, to create and to adapt as long as you attribute, share-alike and keep open. Copyright 2016 Reiner Lemoine Institut" ;
+          rdfs:label "id: ODbL-1.0, name: Open Database License (ODbL) v1.0, version: 1.0, url: http://www.opendefinition.org/licenses/odc-odbl" .
+
+_:genid8 rdf:type <http://purl.org/dc/terms/MediaTypeOrExtent> ;
+          rdfs:label "table"^^xsd:String .
+
+
+###  http://scenario.abbb_demand-csv
+<http://scenario.abbb_demand-csv> rdf:type owl:NamedIndividual ,
+                                           <http://www.w3.org/ns/dcat#Distribution> ;
+                                  <http://purl.org/dc/terms/license> <https://www.dcat-ap.de/def/licenses/odbl> ,
+                                                                     _:genid9 ;
+                                  <http://purl.org/dc/terms/title> "CSV distribution of scenario.abbb_demand" ;
+                                  <http://www.w3.org/ns/dcat#accessURL> <http://openenergy-platform.org/api/v0/schema/scenario/tables/abbb_demand/rows?form=csv> ;
+                                  <http://www.w3.org/ns/dcat#downloadURL> <http://openenergy-platform.org/api/v0/schema/scenario/tables/abbb_demand/rows?form=csv> ;
+                                  <http://www.w3.org/ns/dcat#format> _:genid10 ;
+                                  <http://www.w3.org/ns/dcat#mediaType> "text/csv" .
+
+_:genid9 rdf:type <http://purl.org/dc/terms/LicenseDocument> ;
+          rdfs:comment "instruction: You are free to share, to create and to adapt as long as you attribute, share-alike and keep open. Copyright 2016 Reiner Lemoine Institut" ;
+          rdfs:label "id: ODbL-1.0, name: Open Database License (ODbL) v1.0, version: 1.0, url: http://www.opendefinition.org/licenses/odc-odbl" .
+
+_:genid10 rdf:type <http://purl.org/dc/terms/MediaTypeOrExtent> ;
+           rdfs:label "text/csv"^^xsd:String .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

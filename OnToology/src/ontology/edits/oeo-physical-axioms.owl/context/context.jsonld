@@ -1,0 +1,39 @@
+{
+  "@context" : {
+    "OEO_00230020" : {
+      "@id" : "http://openenergy-platform.org/ontology/oeo/OEO_00230020"
+    },
+    "RO_0000053" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "OEO_00000207" : {
+      "@id" : "http://openenergy-platform.org/ontology/oeo/OEO_00000207"
+    },
+    "OEO_00000007" : {
+      "@id" : "http://openenergy-platform.org/ontology/oeo/OEO_00000007"
+    },
+    "BFO_0000040" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    },
+    "OEO_00000151" : {
+      "@id" : "http://openenergy-platform.org/ontology/oeo/OEO_00000151"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "RO_0000091" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0000091",
+      "@type" : "@id"
+    },
+    "OEO_00000139" : {
+      "@id" : "http://openenergy-platform.org/ontology/oeo/OEO_00000139"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    }
+  }
+}
