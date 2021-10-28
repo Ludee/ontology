@@ -1,0 +1,274 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://purl.org/dc/terms/MediaTypeOrExtent" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#String",
+    "@value" : "text/csv"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://xmlns.com/foaf/0.1/Person" ],
+  "http://xmlns.com/foaf/0.1/mbox" : [ {
+    "@id" : "file:/home/ahmad/repos/ludwig.huelk@rl-institut.de/examples/elisa.gaudchau@rl-institut.de"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Elisa Gaudchau"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://xmlns.com/foaf/0.1/Person" ],
+  "http://xmlns.com/foaf/0.1/mbox" : [ {
+    "@id" : "file:/home/ahmad/repos/ludwig.huelk@rl-institut.de/examples/elisa.gaudchau@rl-institut.de"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Elisa Gaudchau"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://xmlns.com/foaf/0.1/Person" ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Kilian Zimmerer"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://xmlns.com/foaf/0.1/Agent" ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://xmlns.com/foaf/0.1/Document" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "nicht oeffentlich"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ZAB ZukunftsAgentur Brandenburg GmbH"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://purl.org/dc/terms/LicenseDocument" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "instruction: You are free to share, to create and to adapt as long as you attribute, share-alike and keep open. Copyright 2016 Reiner Lemoine Institut"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "id: ODbL-1.0, name: Open Database License (ODbL) v1.0, version: 1.0, url: http://www.opendefinition.org/licenses/odc-odbl"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://purl.org/dc/terms/MediaTypeOrExtent" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#String",
+    "@value" : "table"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://purl.org/dc/terms/LicenseDocument" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "instruction: You are free to share, to create and to adapt as long as you attribute, share-alike and keep open. Copyright 2016 Reiner Lemoine Institut"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "id: ODbL-1.0, name: Open Database License (ODbL) v1.0, version: 1.0, url: http://www.opendefinition.org/licenses/odc-odbl"
+  } ]
+}, {
+  "@id" : "http://catalog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/dcat#Catalog" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : ""
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/ns/dcat#Dataset" : [ {
+    "@id" : "http://scenario.abbb_demand"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/LicenseDocument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/MediaTypeOrExtent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/spatial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://refenrencedate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://scenario.abbb_demand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/dcat#Dataset" ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2016-11-24"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "aggregated and modified demand data (electricity and heat) for every technology, region and scenario"
+  } ],
+  "http://purl.org/dc/terms/language" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/language/ENG"
+  }, {
+    "@id" : "http://publications.europa.eu/resource/authority/language/GER"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://purl.org/dc/terms/spatial" : [ {
+    "@id" : "http://publications.europa.eu/mdr/authority/place/DEU_BBG"
+  }, {
+    "@id" : "http://publications.europa.eu/mdr/authority/place/DEU_BER"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "oemof app brandenburg berlin - demand per sector"
+  } ],
+  "http://refenrencedate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2016-11-24"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "resolution: Regionale Planungsgemeinschaften und Berlin"
+  } ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "http://scenario.abbb_demand-1"
+  }, {
+    "@id" : "http://scenario.abbb_demand-csv"
+  } ],
+  "http://www.w3.org/ns/dcat#landingPage" : [ {
+    "@id" : "http://openenergy-platform.org/dataedit/view/scenario/abbb_demand"
+  } ],
+  "http://xmlns.com/foaf/0.1/page" : [ {
+    "@id" : "http://www.energie.brandenburg.de/media/bb1.a.2865.de/Energiestrategie_2030.pdf"
+  }, {
+    "@id" : "http://www.lak-energiebilanzen.de/seiten/download/Archiv%20Bilanzen/Brandenburg/2012/Energiebilanz%20Brandenburg%202012.pdf"
+  }, {
+    "@id" : "http://www.stadtentwicklung.berlin.de/umwelt/klima-schutz/bek_berlin/"
+  }, {
+    "@id" : "https://www.zab-energie.de/de/system/files/media-downloads/6._monitoringbericht_zur_energiestrategie_-_berichtsjahr_2014_1.pdf"
+  }, {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://scenario.abbb_demand-1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://www.dcat-ap.de/def/licenses/odbl"
+  }, {
+    "@id" : "_:genid7"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "distribution of scenario.abbb_demand"
+  } ],
+  "http://www.w3.org/ns/dcat#accessURL" : [ {
+    "@id" : "http://openenergy-platform.org/dataedit/view/scenario/abbb_demand"
+  } ],
+  "http://www.w3.org/ns/dcat#format" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "table"
+  } ]
+}, {
+  "@id" : "http://scenario.abbb_demand-csv",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/dcat#Distribution" ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://www.dcat-ap.de/def/licenses/odbl"
+  }, {
+    "@id" : "_:genid9"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "CSV distribution of scenario.abbb_demand"
+  } ],
+  "http://www.w3.org/ns/dcat#accessURL" : [ {
+    "@id" : "http://openenergy-platform.org/api/v0/schema/scenario/tables/abbb_demand/rows?form=csv"
+  } ],
+  "http://www.w3.org/ns/dcat#downloadURL" : [ {
+    "@id" : "http://openenergy-platform.org/api/v0/schema/scenario/tables/abbb_demand/rows?form=csv"
+  } ],
+  "http://www.w3.org/ns/dcat#format" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://www.w3.org/ns/dcat#mediaType" : [ {
+    "@value" : "text/csv"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#String",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#Catalog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#Dataset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#Distribution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#accessURL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#distribution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#downloadURL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#format",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#landingPage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#mediaType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/mbox",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/page",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

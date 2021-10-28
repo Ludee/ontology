@@ -1,0 +1,52 @@
+{
+  "@context" : {
+    "has_target_year" : {
+      "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_target_year"
+    },
+    "has_DOI_identifier" : {
+      "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_DOI_identifier"
+    },
+    "covers_demand_sector" : {
+      "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!covers_demand_sector"
+    },
+    "oeo.omnhas_author" : {
+      "@id" : "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author"
+    },
+    "has_name" : {
+      "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_name"
+    },
+    "covers_energy_sector" : {
+      "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!covers_energy_sector"
+    },
+    "oeo.omnhas_funding_source" : {
+      "@id" : "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_funding_source"
+    },
+    "oeo.omncoversTechnology" : {
+      "@id" : "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncoversTechnology"
+    },
+    "oeo.omncovers_timeframe" : {
+      "@id" : "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncovers_timeframe"
+    },
+    "oeo.omnhas_client" : {
+      "@id" : "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_client"
+    },
+    "has_postprocessing" : {
+      "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_postprocessing"
+    },
+    "has_study_name" : {
+      "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_study_name"
+    },
+    "oeo.omncovers_region" : {
+      "@id" : "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncovers_region"
+    },
+    "oeo.omnScenario" : {
+      "@id" : "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnScenario"
+    },
+    "has_sensitivity" : {
+      "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_sensitivity"
+    },
+    "has_transformation_path" : {
+      "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_transformation_path"
+    }
+  }
+}

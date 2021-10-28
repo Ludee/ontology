@@ -1,0 +1,161 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnScenario" ],
+  "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!covers_demand_sector" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!covers_energy_sector" : [ {
+    "@id" : "_:genid3"
+  } ],
+  "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_DOI_identifier" : [ {
+    "@value" : "https://www.oeko.de/oekodoc/2451/2015-608-de.pdf"
+  } ],
+  "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_name" : [ {
+    "@value" : "Klimaschutzszenario 95 (KS95)"
+  } ],
+  "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_postprocessing" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_sensitivity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_study_name" : [ {
+    "@value" : "Klimaschutzszenario 2050. 2. Endbericht"
+  } ],
+  "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_target_year" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_transformation_path" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncoversTechnology" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncovers_region" : [ {
+    "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!Germany"
+  } ],
+  "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncovers_timeframe" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author" : [ {
+    "@value" : "Barbara Schlomann"
+  }, {
+    "@value" : "Ben Pfluger"
+  }, {
+    "@value" : "Benjamin Greiner"
+  }, {
+    "@value" : "Carina Zell-Ziegler"
+  }, {
+    "@value" : "Charlotte Loreck"
+  }, {
+    "@value" : "Felix Chri. Matthes"
+  }, {
+    "@value" : "Frank Sensfuß"
+  }, {
+    "@value" : "Günter Dehoust"
+  }, {
+    "@value" : "Hannah Förster"
+  }, {
+    "@value" : "Hannes Böttcher"
+  }, {
+    "@value" : "Hans-Joachim Ziesing"
+  }, {
+    "@value" : "Hauke Hermann"
+  }, {
+    "@value" : "Johannes Hartwig"
+  }, {
+    "@value" : "Judit Kockat"
+  }, {
+    "@value" : "Julia Repenning"
+  }, {
+    "@value" : "Katja Schumachen"
+  }, {
+    "@value" : "Kirsten Wiegmann"
+  }, {
+    "@value" : "Klaus Henneberg"
+  }, {
+    "@value" : "Lukas Emele"
+  }, {
+    "@value" : "Margarethe Scheffler"
+  }, {
+    "@value" : "Rainer Elsland"
+  }, {
+    "@value" : "Ralph Harthan"
+  }, {
+    "@value" : "Ruth Blanck"
+  }, {
+    "@value" : "Sibylle Braungardt"
+  }, {
+    "@value" : "Sylive Ludig"
+  }, {
+    "@value" : "Tobias Fleiter"
+  }, {
+    "@value" : "Wolfgang Eichhammer"
+  }, {
+    "@value" : "Wolfgang Schade"
+  }, {
+    "@value" : "Wolfram Jörß"
+  } ],
+  "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_client" : [ {
+    "@value" : "Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit"
+  } ],
+  "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_funding_source" : [ {
+    "@id" : "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnPublic"
+  } ]
+}, {
+  "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!covers_demand_sector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!covers_energy_sector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_DOI_identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_postprocessing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_sensitivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_study_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_target_year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_transformation_path",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnScenario",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncoversTechnology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncovers_region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncovers_timeframe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_client",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_funding_source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
