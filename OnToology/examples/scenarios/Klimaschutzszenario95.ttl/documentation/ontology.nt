@@ -1,0 +1,124 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!covers_demand_sector
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!covers_demand_sector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!covers_energy_sector
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!covers_energy_sector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_DOI_identifier
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_DOI_identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_name
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_postprocessing
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_postprocessing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_sensitivity
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_sensitivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_study_name
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_study_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_target_year
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_target_year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_transformation_path
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_transformation_path> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncoversTechnology
+<https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncoversTechnology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncovers_region
+<https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncovers_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncovers_timeframe
+<https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncovers_timeframe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author
+<https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_client
+<https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_client> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_funding_source
+<https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_funding_source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnScenario
+<https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnScenario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnScenario> .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!covers_demand_sector> _:genid2 .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!covers_energy_sector> _:genid3 .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_DOI_identifier> "https://www.oeko.de/oekodoc/2451/2015-608-de.pdf" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_name> "Klimaschutzszenario 95 (KS95)" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_postprocessing> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_sensitivity> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_study_name> "Klimaschutzszenario 2050. 2. Endbericht" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_target_year> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!has_transformation_path> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncoversTechnology> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncovers_region> <http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/missing!Germany> .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omncovers_timeframe> _:genid4 .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Barbara Schlomann" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Ben Pfluger" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Benjamin Greiner" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Carina Zell-Ziegler" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Charlotte Loreck" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Felix Chri. Matthes" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Frank Sensfuß" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Günter Dehoust" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Hannah Förster" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Hannes Böttcher" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Hans-Joachim Ziesing" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Hauke Hermann" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Johannes Hartwig" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Judit Kockat" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Julia Repenning" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Katja Schumachen" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Kirsten Wiegmann" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Klaus Henneberg" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Lukas Emele" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Margarethe Scheffler" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Rainer Elsland" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Ralph Harthan" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Ruth Blanck" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Sibylle Braungardt" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Sylive Ludig" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Tobias Fleiter" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Wolfgang Eichhammer" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Wolfgang Schade" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_author> "Wolfram Jörß" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_client> "Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit" .
+<http://openenergy-platform.org/ontology/EnergyStrategyBrandenburg.ttl/KS95> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnhas_funding_source> <https://github.com/OpenEnergyPlatform/ontology/blob/feature/Scenario/oeo.omnPublic> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

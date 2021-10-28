@@ -1,0 +1,391 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:http="http://"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://refenrencedate -->
+
+
+    <AnnotationProperty rdf:about="http://refenrencedate"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/language -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/language"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/spatial -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/spatial"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Dataset -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#Dataset"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#accessURL -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#accessURL"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#distribution -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#distribution"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#downloadURL -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#downloadURL"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#format -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#format"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#landingPage -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#landingPage"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#mediaType -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#mediaType"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/mbox -->
+
+
+    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/mbox"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+
+    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/page -->
+
+
+    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/page"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#String -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#String"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/LicenseDocument -->
+
+
+    <Class rdf:about="http://purl.org/dc/terms/LicenseDocument"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/MediaTypeOrExtent -->
+
+
+    <Class rdf:about="http://purl.org/dc/terms/MediaTypeOrExtent"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Catalog -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/dcat#Catalog"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Dataset -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/dcat#Dataset"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Distribution -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/dcat#Distribution"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+
+    <Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Document -->
+
+
+    <Class rdf:about="http://xmlns.com/foaf/0.1/Document"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+
+    <Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://catalog -->
+
+
+    <NamedIndividual rdf:about="http://catalog">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+        <terms:description></terms:description>
+        <terms:title></terms:title>
+        <dcat:Dataset rdf:resource="http://scenario.abbb_demand"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://scenario.abbb_demand -->
+
+
+    <NamedIndividual rdf:about="http://scenario.abbb_demand">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <http:refenrencedate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-24</http:refenrencedate>
+        <terms:contributor rdf:nodeID="genid2"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-11-24</terms:created>
+        <terms:creator rdf:nodeID="genid3"/>
+        <terms:creator rdf:nodeID="genid4"/>
+        <terms:description>aggregated and modified demand data (electricity and heat) for every technology, region and scenario</terms:description>
+        <terms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <terms:language rdf:resource="http://publications.europa.eu/resource/authority/language/GER"/>
+        <terms:publisher rdf:nodeID="genid5"/>
+        <terms:spatial rdf:resource="http://publications.europa.eu/mdr/authority/place/DEU_BBG"/>
+        <terms:spatial rdf:resource="http://publications.europa.eu/mdr/authority/place/DEU_BER"/>
+        <terms:title>oemof app brandenburg berlin - demand per sector</terms:title>
+        <rdfs:comment>resolution: Regionale Planungsgemeinschaften und Berlin</rdfs:comment>
+        <dcat:distribution rdf:resource="http://scenario.abbb_demand-1"/>
+        <dcat:distribution rdf:resource="http://scenario.abbb_demand-csv"/>
+        <dcat:landingPage rdf:resource="http://openenergy-platform.org/dataedit/view/scenario/abbb_demand"/>
+        <foaf:page rdf:resource="http://www.energie.brandenburg.de/media/bb1.a.2865.de/Energiestrategie_2030.pdf"/>
+        <foaf:page rdf:resource="http://www.lak-energiebilanzen.de/seiten/download/Archiv%20Bilanzen/Brandenburg/2012/Energiebilanz%20Brandenburg%202012.pdf"/>
+        <foaf:page rdf:resource="http://www.stadtentwicklung.berlin.de/umwelt/klima-schutz/bek_berlin/"/>
+        <foaf:page rdf:resource="https://www.zab-energie.de/de/system/files/media-downloads/6._monitoringbericht_zur_energiestrategie_-_berichtsjahr_2014_1.pdf"/>
+        <foaf:page rdf:nodeID="genid6"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid2">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <foaf:mbox rdf:resource="file:/home/ahmad/repos/ludwig.huelk@rl-institut.de/examples/elisa.gaudchau@rl-institut.de"/>
+        <foaf:name>Elisa Gaudchau</foaf:name>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid3">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <foaf:mbox rdf:resource="file:/home/ahmad/repos/ludwig.huelk@rl-institut.de/examples/elisa.gaudchau@rl-institut.de"/>
+        <foaf:name>Elisa Gaudchau</foaf:name>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid4">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <foaf:name>Kilian Zimmerer</foaf:name>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid5">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid6">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment>nicht oeffentlich</rdfs:comment>
+        <rdfs:label>ZAB ZukunftsAgentur Brandenburg GmbH</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://scenario.abbb_demand-1 -->
+
+
+    <NamedIndividual rdf:about="http://scenario.abbb_demand-1">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <terms:license rdf:resource="https://www.dcat-ap.de/def/licenses/odbl"/>
+        <terms:license rdf:nodeID="genid7"/>
+        <terms:title>distribution of scenario.abbb_demand</terms:title>
+        <dcat:accessURL rdf:resource="http://openenergy-platform.org/dataedit/view/scenario/abbb_demand"/>
+        <dcat:format rdf:nodeID="genid8"/>
+        <dcat:mediaType>table</dcat:mediaType>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid7">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+        <rdfs:comment>instruction: You are free to share, to create and to adapt as long as you attribute, share-alike and keep open. Copyright 2016 Reiner Lemoine Institut</rdfs:comment>
+        <rdfs:label>id: ODbL-1.0, name: Open Database License (ODbL) v1.0, version: 1.0, url: http://www.opendefinition.org/licenses/odc-odbl</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid8">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#String">table</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://scenario.abbb_demand-csv -->
+
+
+    <NamedIndividual rdf:about="http://scenario.abbb_demand-csv">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <terms:license rdf:resource="https://www.dcat-ap.de/def/licenses/odbl"/>
+        <terms:license rdf:nodeID="genid9"/>
+        <terms:title>CSV distribution of scenario.abbb_demand</terms:title>
+        <dcat:accessURL rdf:resource="http://openenergy-platform.org/api/v0/schema/scenario/tables/abbb_demand/rows?form=csv"/>
+        <dcat:downloadURL rdf:resource="http://openenergy-platform.org/api/v0/schema/scenario/tables/abbb_demand/rows?form=csv"/>
+        <dcat:format rdf:nodeID="genid10"/>
+        <dcat:mediaType>text/csv</dcat:mediaType>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid9">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+        <rdfs:comment>instruction: You are free to share, to create and to adapt as long as you attribute, share-alike and keep open. Copyright 2016 Reiner Lemoine Institut</rdfs:comment>
+        <rdfs:label>id: ODbL-1.0, name: Open Database License (ODbL) v1.0, version: 1.0, url: http://www.opendefinition.org/licenses/odc-odbl</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid10">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#String">text/csv</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+
